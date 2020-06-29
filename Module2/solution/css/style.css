@@ -30,6 +30,16 @@ div.absolute{
 	top: 0;
 	right: 0;
 }
+div.Chicken{
+	background-color: #ff5c33;
+}
+div.Beef{
+	background-color: #800000; 
+	color: white;
+}
+div.Sushi{
+	background-color: #c4ff4d
+}
 p{
 	padding: 40px 10px 5px 10px;
 	background-color: #e0e0d1;
