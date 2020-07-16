@@ -1,0 +1,90 @@
+body{
+	font-size: 16px;
+	font-family: 'Balsamiq Sans', sans-serif;
+}
+#header-nav{
+	min-height: 70px;
+	margin-bottom: 0px;
+	border-radius: 0px;
+	border-color: black;
+	border-style: solid;
+  	border-width: 2px 2px 2px 2px;
+  	background-color: #c0bfbf;
+}
+#header-margin{
+	margin-top: 10px;
+}
+#header-nav .navbar-brand{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	color: #000;
+	font-size: 2.5em;
+	font-weight: bold;
+}
+.page-header{
+	border: 0;
+}
+.head-position{
+	text-align: center;
+	margin-bottom: 20px;
+	margin-top: 0;
+}
+#wrapper{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-radius: 0;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #c0bfbf;
+}
+#text-size{
+	font-size: 1.2em;
+}
+ .button{
+	color: black;
+	text-align: center;
+	padding:10px 15px 10px 15px;
+	background-color: #696767;
+}
+.button:hover{
+	text-decoration: none;
+	background-color: black;
+	color: white;
+}
+@media(max-width: 767px){
+	#collapsable-nav{
+		border-top: 2px solid black;
+		background-color: white;
+		margin-top: 5px;
+	}
+	#collapsable-nav li{
+		border-bottom: 2px solid black;
+	}
+	#collapsable-nav a{
+		color: black;
+		text-align: center;
+	}
+	.navbar-nav{
+		margin-top: 0px;
+		margin-bottom: 0;
+	}
+	#collapsable-nav .last-border{
+		border-bottom: 0;
+	}
+	#collapsable-nav a{
+		font-size: 1.2em;
+	}
+	#header-nav .navbar-toggle{
+		margin-top: 5px;
+		margin-bottom: 0px;
+	}
+	.navbar-header button.navbar-toggle{
+		border: 1px solid black;
+	}
+	.navbar-header .icon-bar{
+		border: 2px solid black;
+	}
+	#wrapper{
+	width: 85%;
+	}
+}
